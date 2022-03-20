@@ -1,0 +1,2311 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 705507994}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &76136520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100066, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 76136521}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 R Finger1Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &76136521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400066, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76136520}
+  m_LocalRotation: {x: -0.000000014901163, y: -0.0000000074505815, z: 1, w: -4.9789976e-17}
+  m_LocalPosition: {x: -0.07082252, y: 0.000000038146972, z: 0}
+  m_LocalScale: {x: -1, y: -1, z: -1}
+  m_Children: []
+  m_Father: {fileID: 1483660420}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &196729898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100052, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 196729899}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 R Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &196729899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400052, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196729898}
+  m_LocalRotation: {x: -0.77144456, y: 0.29712066, z: -0.020263916, w: 0.5623007}
+  m_LocalPosition: {x: -0.048160553, y: 0.023382569, z: 0.05739601}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 491402263}
+  m_Father: {fileID: 1143416937}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &316417855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100102, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 316417856}
+  m_Layer: 0
+  m_Name: rightshoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &316417856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400102, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316417855}
+  m_LocalRotation: {x: 0.000000011175868, y: -2.0816672e-17, z: -0.0000000018626447, w: 1}
+  m_LocalPosition: {x: -0.03719303, y: 0, z: -0.11869049}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 659837807}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &337421925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100034, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 337421926}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 L Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &337421926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400034, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337421925}
+  m_LocalRotation: {x: -0.74917924, y: -0.14850572, z: -0.063805796, w: 0.64234364}
+  m_LocalPosition: {x: -0.29492912, y: 0.0000000047683715, z: -0.000000076293944}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1877096200}
+  - {fileID: 1258832410}
+  m_Father: {fileID: 1151716007}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &440520487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 440520488}
+  m_Layer: 0
+  m_Name: Guardian-Bip001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &440520488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400002, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440520487}
+  m_LocalRotation: {x: -0.50000036, y: 0.49999964, z: 0.49999964, w: 0.50000036}
+  m_LocalPosition: {x: -0, y: 0.93484634, z: 0.057205953}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 974358087}
+  - {fileID: 737587514}
+  m_Father: {fileID: 1047859543}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &491402262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100054, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 491402263}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 R Finger01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &491402263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400054, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491402262}
+  m_LocalRotation: {x: -0.000000018499831, y: 0.0000000021681603, z: -0.11640222, w: 0.99320215}
+  m_LocalPosition: {x: -0.04258667, y: 0.000000038146972, z: -0.000000038146972}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1072934565}
+  m_Father: {fileID: 196729899}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &637682659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100028, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 637682660}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 L Finger1Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &637682660
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400028, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637682659}
+  m_LocalRotation: {x: -0.0000000074505797, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0708226, y: 0.000000038146972, z: 0.000000038146972}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1689903944}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &659837806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100050, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 659837807}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 R Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &659837807
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400050, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659837806}
+  m_LocalRotation: {x: 0.523248, y: 0.1091134, z: 0.827368, w: -0.17253424}
+  m_LocalPosition: {x: 0.03835907, y: 0.0022691344, z: -0.09354319}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 961289317}
+  - {fileID: 316417856}
+  m_Father: {fileID: 1296046155}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &705507993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 705507995}
+  - component: {fileID: 705507994}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &705507994
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &705507995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &706494518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100042, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 706494519}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 L UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &706494519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400042, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706494518}
+  m_LocalRotation: {x: 0.15277149, y: -0.3267144, z: -0.04155262, w: 0.9317682}
+  m_LocalPosition: {x: -0.17457207, y: 0.000000019073486, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1151716007}
+  m_Father: {fileID: 1920521097}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &737587513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100046, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 737587514}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 Pelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &737587514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400046, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737587513}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.4999993, w: 0.5000007}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 890192601}
+  m_Father: {fileID: 440520488}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &795898022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100006, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 795898023}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &795898023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400006, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795898022}
+  m_LocalRotation: {x: 0.00000002635936, y: 0.0000000018841375, z: -0.037838954, w: 0.99928385}
+  m_LocalPosition: {x: -0.1042157, y: -0.000000038146972, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1217825058}
+  m_Father: {fileID: 1296046155}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &871805247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100058, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 871805248}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 R Finger0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &871805248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400058, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871805247}
+  m_LocalRotation: {x: 0.0000000074505815, y: 0.0000000055879354, z: 1, w: 1.9598974e-17}
+  m_LocalPosition: {x: -0.047077864, y: 0, z: 0}
+  m_LocalScale: {x: -1, y: -1, z: -1}
+  m_Children: []
+  m_Father: {fileID: 1072934565}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &890192600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100082, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 890192601}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 Spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &890192601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400082, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890192600}
+  m_LocalRotation: {x: -0.000002026927, y: 0.00000055814843, z: 0.06300954, w: 0.99801296}
+  m_LocalPosition: {x: -0.23509505, y: 0.0021358205, z: 0.0000003200303}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1261603498}
+  - {fileID: 1112521279}
+  - {fileID: 2055496795}
+  m_Father: {fileID: 737587514}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &894735969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100062, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 894735970}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 R Finger11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &894735970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400062, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894735969}
+  m_LocalRotation: {x: -0.00932083, y: 0.0023518864, z: -0.13650404, w: 0.9905929}
+  m_LocalPosition: {x: -0.03599632, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1483660420}
+  m_Father: {fileID: 1909727164}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &896047884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100020, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 896047885}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 L Finger0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &896047885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400020, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896047884}
+  m_LocalRotation: {x: 0.000000037252907, y: -0.000000014901161, z: 0.0000000074505815, w: 1}
+  m_LocalPosition: {x: -0.04707779, y: -0.000000009536743, z: 0.000000038146972}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1563209535}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &912272613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100024, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 912272614}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 L Finger11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &912272614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400024, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912272613}
+  m_LocalRotation: {x: 0.0093208365, y: -0.0023518878, z: -0.13650405, w: 0.9905929}
+  m_LocalPosition: {x: -0.035996247, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1689903944}
+  m_Father: {fileID: 1258832410}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &961289316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100080, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 961289317}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 R UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &961289317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400080, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961289316}
+  m_LocalRotation: {x: -0.15277147, y: 0.32671425, z: -0.041552644, w: 0.93176824}
+  m_LocalPosition: {x: -0.1745721, y: 0.000000019073486, z: 0.00000015258789}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1189722575}
+  m_Father: {fileID: 659837807}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &963194225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 963194228}
+  - component: {fileID: 963194227}
+  - component: {fileID: 963194226}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &963194226
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+--- !u!20 &963194227
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &963194228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &974358086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100004, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 974358087}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 Footsteps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &974358087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400004, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974358086}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071063, w: 0.70710725}
+  m_LocalPosition: {x: -0, y: 0, z: -0.9354775}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 440520488}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1047859541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100092, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1047859543}
+  - component: {fileID: 1047859542}
+  m_Layer: 0
+  m_Name: Guardian-set00
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1047859542
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047859541}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_Controller: {fileID: 9100000, guid: 59fe65071706c21439b67b29954cd6aa, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!4 &1047859543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400092, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047859541}
+  m_LocalRotation: {x: 0, y: 0.99900585, z: -0, w: -0.04457833}
+  m_LocalPosition: {x: 0.23, y: 0, z: -7.08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1528200936}
+  - {fileID: 440520488}
+  - {fileID: 1097912882}
+  - {fileID: 1541011691}
+  - {fileID: 2144634896}
+  - {fileID: 1149898791}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 185.11, z: 0}
+--- !u!1 &1072934564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100056, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1072934565}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 R Finger02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1072934565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400056, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072934564}
+  m_LocalRotation: {x: -0.0000000019654383, y: 0.000000015233498, z: -0.11640222, w: 0.9932022}
+  m_LocalPosition: {x: -0.043578643, y: 0, z: 0.000000019073486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 871805248}
+  m_Father: {fileID: 491402263}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1097912881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100086, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1097912882}
+  - component: {fileID: 1097912883}
+  m_Layer: 0
+  m_Name: Guardian-head00
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1097912882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400086, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097912881}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1047859543}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1097912883
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 13700002, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097912881}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100004, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300004, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_Bones:
+  - {fileID: 795898023}
+  - {fileID: 2055496795}
+  - {fileID: 1296046155}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 2055496795}
+  m_AABB:
+    m_Center: {x: -0.44341296, y: 0.100878224, z: 0.00000032037497}
+    m_Extent: {x: 0.15986781, y: 0.16691385, z: 0.08735269}
+  m_DirtyAABB: 0
+--- !u!1 &1112521278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100074, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1112521279}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 R Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1112521279
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400074, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112521278}
+  m_LocalRotation: {x: 0.11104166, y: 0.9915658, z: -0.05801793, w: -0.033181638}
+  m_LocalPosition: {x: 0.23295967, y: -0.031686038, z: -0.12905031}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1319124203}
+  m_Father: {fileID: 890192601}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1143416936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100072, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1143416937}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 R Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1143416937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400072, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143416936}
+  m_LocalRotation: {x: 0.74917924, y: 0.14850573, z: -0.06380579, w: 0.64234364}
+  m_LocalPosition: {x: -0.29492912, y: -0.000000014305114, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 196729899}
+  - {fileID: 1909727164}
+  - {fileID: 1935690490}
+  m_Father: {fileID: 1189722575}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1149898790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100094, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1149898791}
+  - component: {fileID: 1149898792}
+  m_Layer: 0
+  m_Name: Guardian-upper00
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1149898791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400094, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149898790}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1047859543}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1149898792
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 13700008, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149898790}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100006, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300006, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_Bones:
+  - {fileID: 440520488}
+  - {fileID: 890192601}
+  - {fileID: 1296046155}
+  - {fileID: 2055496795}
+  - {fileID: 795898023}
+  - {fileID: 1920521097}
+  - {fileID: 706494519}
+  - {fileID: 1151716007}
+  - {fileID: 659837807}
+  - {fileID: 961289317}
+  - {fileID: 1189722575}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 440520488}
+  m_AABB:
+    m_Center: {x: 0.020050138, y: 0.00000023841858, z: 0.4658712}
+    m_Extent: {x: 0.20219485, y: 0.55166113, z: 0.381674}
+  m_DirtyAABB: 0
+--- !u!1 &1151716006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1151716007}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 L Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1151716007
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400032, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151716006}
+  m_LocalRotation: {x: 0.000000008338171, y: 0.000000016655921, z: 0.17840308, w: 0.9839575}
+  m_LocalPosition: {x: -0.26947296, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 337421926}
+  - {fileID: 1266491542}
+  m_Father: {fileID: 706494519}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1189722574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100070, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1189722575}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 R Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1189722575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400070, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189722574}
+  m_LocalRotation: {x: 0.00000001466211, y: 0.000000002658413, z: 0.17840308, w: 0.9839575}
+  m_LocalPosition: {x: -0.2694732, y: 0, z: 0.000000076293944}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1143416937}
+  m_Father: {fileID: 961289317}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1217825057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100008, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1217825058}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 HeadNub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1217825058
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400008, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217825057}
+  m_LocalRotation: {x: -8.526513e-14, y: 1.2705494e-21, z: -0.000000014901161, w: 1}
+  m_LocalPosition: {x: -0.20019089, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 795898023}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1241555706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100078, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1241555707}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 R Toe0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1241555707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400078, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241555706}
+  m_LocalRotation: {x: 1.776357e-15, y: 0.000000014901161, z: -2.6469783e-23, w: 1}
+  m_LocalPosition: {x: -0.1046973, y: -7.4505804e-11, z: 0.000000019073486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1807473627}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1258832409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100022, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1258832410}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 L Finger1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1258832410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400022, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258832409}
+  m_LocalRotation: {x: -0.14117736, y: 0.009184806, z: -0.00023221737, w: 0.9899417}
+  m_LocalPosition: {x: -0.11228042, y: -0.01298439, z: 0.009550419}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 912272614}
+  m_Father: {fileID: 337421926}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1261603497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100036, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1261603498}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 L Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1261603498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400036, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261603497}
+  m_LocalRotation: {x: 0.111041754, y: 0.9915656, z: 0.058020655, w: 0.03318106}
+  m_LocalPosition: {x: 0.23295975, y: -0.031686746, z: 0.12905008}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1864826421}
+  m_Father: {fileID: 890192601}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1266491541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100096, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1266491542}
+  m_Layer: 0
+  m_Name: lefthandweapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1266491542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400096, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266491541}
+  m_LocalRotation: {x: -0.00000001117587, y: -0.00000008940697, z: 0.0000000074505797, w: 1}
+  m_LocalPosition: {x: -0.25809684, y: -0.0012813759, z: 0.115997314}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1151716007}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1296046154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100044, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1296046155}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1296046155
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400044, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296046154}
+  m_LocalRotation: {x: -0.000000059706096, y: 0.00000091403314, z: -0.2037518, w: 0.97902256}
+  m_LocalPosition: {x: -0.2581276, y: 0.007495479, z: 0.000000011585543}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 795898023}
+  - {fileID: 1920521097}
+  - {fileID: 659837807}
+  m_Father: {fileID: 2055496795}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1319124202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100048, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1319124203}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 R Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1319124203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400048, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319124202}
+  m_LocalRotation: {x: 0.0000000027929936, y: 7.376545e-11, z: 0.026401684, w: 0.99965143}
+  m_LocalPosition: {x: -0.34531122, y: 0.0000000047683715, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1485889086}
+  m_Father: {fileID: 1112521279}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1352340926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100038, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1352340927}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 L Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1352340927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400038, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352340926}
+  m_LocalRotation: {x: 0.0000000049176014, y: -0.000000025991026, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.12860082, y: 0.116665445, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1948541349}
+  m_Father: {fileID: 1593460171}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1483660419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100064, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1483660420}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 R Finger12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1483660420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400064, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483660419}
+  m_LocalRotation: {x: 0.0084799165, y: -0.000993822, z: -0.11639797, w: 0.99316597}
+  m_LocalPosition: {x: -0.046671294, y: -0.000000019073486, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 76136521}
+  m_Father: {fileID: 894735970}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1485889085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100068, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1485889086}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 R Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1485889086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400068, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485889085}
+  m_LocalRotation: {x: 0.07219661, y: -0.037550215, z: -0.0702657, w: 0.9942034}
+  m_LocalPosition: {x: -0.46974188, y: 0.000000023841856, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1807473627}
+  m_Father: {fileID: 1319124203}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1528200935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1528200936}
+  - component: {fileID: 1528200937}
+  m_Layer: 0
+  m_Name: Guardian-arm00
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1528200936
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528200935}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1047859543}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1528200937
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 13700000, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528200935}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100002, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300002, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_Bones:
+  - {fileID: 1258832410}
+  - {fileID: 1563209535}
+  - {fileID: 912272614}
+  - {fileID: 1689903944}
+  - {fileID: 337421926}
+  - {fileID: 1261603498}
+  - {fileID: 1877096200}
+  - {fileID: 1781942557}
+  - {fileID: 1151716007}
+  - {fileID: 890192601}
+  - {fileID: 1189722575}
+  - {fileID: 1143416937}
+  - {fileID: 1112521279}
+  - {fileID: 1909727164}
+  - {fileID: 1072934565}
+  - {fileID: 894735970}
+  - {fileID: 1483660420}
+  - {fileID: 196729899}
+  - {fileID: 491402263}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 890192601}
+  m_AABB:
+    m_Center: {x: 0.2692671, y: 0.0045581907, z: -0.00000017881393}
+    m_Extent: {x: 0.1959444, y: 0.09696014, z: 0.5587493}
+  m_DirtyAABB: 0
+--- !u!1 &1541011690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100088, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1541011691}
+  - component: {fileID: 1541011692}
+  m_Layer: 0
+  m_Name: Guardian-leg00
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1541011691
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400088, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541011690}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1047859543}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1541011692
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 13700004, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541011690}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100008, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300008, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_Bones:
+  - {fileID: 1864826421}
+  - {fileID: 1593460171}
+  - {fileID: 1352340927}
+  - {fileID: 1261603498}
+  - {fileID: 1485889086}
+  - {fileID: 1319124203}
+  - {fileID: 1807473627}
+  - {fileID: 1112521279}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1112521279}
+  m_AABB:
+    m_Center: {x: -0.7011093, y: 0.021589115, z: -0.19868162}
+    m_Extent: {x: 0.25179276, y: 0.2170289, z: 0.306295}
+  m_DirtyAABB: 0
+--- !u!1 &1563209534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100018, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1563209535}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 L Finger02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1563209535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400018, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563209534}
+  m_LocalRotation: {x: 0.000000025899764, y: -0.0000000030354244, z: -0.11640222, w: 0.9932022}
+  m_LocalPosition: {x: -0.043578643, y: 0, z: 0.000000076293944}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 896047885}
+  m_Father: {fileID: 1781942557}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1593460170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100030, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1593460171}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 L Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1593460171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400030, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593460170}
+  m_LocalRotation: {x: -0.07219661, y: 0.03755013, z: -0.07026571, w: 0.9942034}
+  m_LocalPosition: {x: -0.469742, y: 0, z: 0.000000019073486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1352340927}
+  m_Father: {fileID: 1864826421}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1689903943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100026, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1689903944}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 L Finger12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1689903944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400026, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689903943}
+  m_LocalRotation: {x: -0.008479915, y: 0.0009938369, z: -0.116397984, w: 0.99316597}
+  m_LocalPosition: {x: -0.046671294, y: -0.000000019073486, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 637682660}
+  m_Father: {fileID: 912272614}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1781942556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100016, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1781942557}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 L Finger01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1781942557
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400016, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781942556}
+  m_LocalRotation: {x: -0.000000027431568, y: 0.000000021968889, z: -0.11640224, w: 0.99320215}
+  m_LocalPosition: {x: -0.04258667, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1563209535}
+  m_Father: {fileID: 1877096200}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1807473626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100076, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1807473627}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 R Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1807473627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400076, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807473626}
+  m_LocalRotation: {x: -0.0000000049175988, y: 0.000000025991024, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.12860082, y: 0.11666543, z: -0.000000019073486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1241555707}
+  m_Father: {fileID: 1485889086}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1864826420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100010, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1864826421}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 L Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1864826421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400010, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864826420}
+  m_LocalRotation: {x: 0.000000005120488, y: 1.3523659e-10, z: 0.026401673, w: 0.99965143}
+  m_LocalPosition: {x: -0.34531122, y: -0.000000009536743, z: -0.000000019073486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1593460171}
+  m_Father: {fileID: 1261603498}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1877096199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100014, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1877096200}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 L Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1877096200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400014, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877096199}
+  m_LocalRotation: {x: 0.7714445, y: -0.2971207, z: -0.020263953, w: 0.56230074}
+  m_LocalPosition: {x: -0.048160475, y: 0.023382643, z: -0.05739601}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1781942557}
+  m_Father: {fileID: 337421926}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1877982241
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100092, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+      propertyPath: m_Name
+      value: Guardian-set00
+      objectReference: {fileID: 0}
+    - target: {fileID: 400092, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400092, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 400092, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400092, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 400092, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.04457833
+      objectReference: {fileID: 0}
+    - target: {fileID: 400092, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400092, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99900585
+      objectReference: {fileID: 0}
+    - target: {fileID: 400092, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400092, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400092, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 185.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 400092, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 59fe65071706c21439b67b29954cd6aa, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+--- !u!1 &1909727163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100060, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1909727164}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 R Finger1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1909727164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400060, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909727163}
+  m_LocalRotation: {x: 0.14117733, y: -0.009184819, z: -0.00023221535, w: 0.9899417}
+  m_LocalPosition: {x: -0.11228035, y: -0.012984466, z: -0.009550399}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 894735970}
+  m_Father: {fileID: 1143416937}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1920521096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100012, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1920521097}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 L Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1920521097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400012, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920521096}
+  m_LocalRotation: {x: -0.52324903, y: -0.10911578, z: 0.8273673, w: -0.1725327}
+  m_LocalPosition: {x: 0.03835907, y: 0.0022685623, z: 0.09354326}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 706494519}
+  - {fileID: 1987502755}
+  m_Father: {fileID: 1296046155}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1935690489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100100, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1935690490}
+  m_Layer: 0
+  m_Name: righthandweapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1935690490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400100, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935690489}
+  m_LocalRotation: {x: -0.0000000055879354, y: 0.000000029802326, z: 0.0000000037252907, w: 1}
+  m_LocalPosition: {x: -0.135971, y: 0.033682592, z: 0.014124718}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1143416937}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1948541348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100040, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1948541349}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 L Toe0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1948541349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400040, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948541348}
+  m_LocalRotation: {x: -0.000000014901161, y: 9.12433e-25, z: 1, w: 6.123234e-17}
+  m_LocalPosition: {x: -0.1046973, y: -7.4505804e-11, z: 0}
+  m_LocalScale: {x: -1, y: -1, z: -1}
+  m_Children: []
+  m_Father: {fileID: 1352340927}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1987502754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100098, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1987502755}
+  m_Layer: 0
+  m_Name: leftshoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1987502755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400098, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987502754}
+  m_LocalRotation: {x: -0.00000016391276, y: 0.00000004470344, z: 1, w: -0.0000002365559}
+  m_LocalPosition: {x: -0.037193146, y: -0.000000019073486, z: 0.118690185}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1920521097}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2055496794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100084, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2055496795}
+  m_Layer: 0
+  m_Name: Guardian-Bip001 Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2055496795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400084, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055496794}
+  m_LocalRotation: {x: -0.0000000029327971, y: 0.000000035575365, z: -0.008408746, w: 0.99996465}
+  m_LocalPosition: {x: -0.17402618, y: -0.00020872116, z: -5.7771105e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1296046155}
+  m_Father: {fileID: 890192601}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2144634895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100090, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2144634896}
+  - component: {fileID: 2144634897}
+  m_Layer: 0
+  m_Name: Guardian-lower00
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2144634896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400090, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144634895}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1047859543}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &2144634897
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 13700006, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_PrefabInstance: {fileID: 1877982241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144634895}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 09e69d05a70009b43b1fa1c56c2e22f9, type: 3}
+  m_Bones:
+  - {fileID: 1112521279}
+  - {fileID: 737587514}
+  - {fileID: 1261603498}
+  - {fileID: 890192601}
+  - {fileID: 440520488}
+  - {fileID: 1864826421}
+  - {fileID: 1593460171}
+  - {fileID: 1352340927}
+  - {fileID: 2055496795}
+  - {fileID: 1319124203}
+  - {fileID: 1485889086}
+  - {fileID: 1807473627}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 440520488}
+  m_AABB:
+    m_Center: {x: 0.03472805, y: -0.000001013279, z: -0.30906507}
+    m_Extent: {x: 0.21209107, y: 0.29332414, z: 0.5260757}
+  m_DirtyAABB: 0
